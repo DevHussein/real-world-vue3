@@ -15,6 +15,8 @@ const GStore = inject<IGStore>('GStore')
           <RouterLink :to="{name: 'event-list'}">Events</RouterLink>
           |
           <RouterLink :to="{name: 'about'}">About</RouterLink>
+          |
+          <router-link :to="{ name: 'todo' }">Todo</router-link>
         </nav>
       </div>
     </header>
